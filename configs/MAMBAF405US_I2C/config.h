@@ -43,7 +43,6 @@
 
 #define GYRO_1_EXTI_PIN      PC4
 #define GYRO_1_CS_PIN        PA4
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW180_DEG
 #define GYRO_1_ALIGN_YAW 1800
@@ -69,7 +68,6 @@
 #define ADC_VBAT_PIN         PC1
 #define ADC_RSSI_PIN         PC2
 #define ADC_CURR_PIN         PC3
-#define USE_ADC
 #define ADC_INSTANCE ADC3
 
 #define UART1_TX_PIN         PB6

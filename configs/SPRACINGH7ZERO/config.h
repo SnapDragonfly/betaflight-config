@@ -147,6 +147,11 @@
 #define USE_CAMERA_CONTROL
 #define USE_MAX7456
 
+// The target has a specific set of pads for the LED strip.
+#ifndef USE_LED_STRIP
+#define USE_LED_STRIP
+#endif
+
 #define BEEPER_PIN           PD7
 #define MOTOR1_PIN           PA0
 #define MOTOR2_PIN           PA1
@@ -226,7 +231,6 @@
 #define BARO_I2C_INSTANCE (I2CDEV_1)
 
 #define DEFAULT_GYRO_TO_USE  GYRO_CONFIG_USE_GYRO_1
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE  SPI3
 #define GYRO_1_ALIGN         CW180_DEG
 #define GYRO_2_SPI_INSTANCE  SPI2

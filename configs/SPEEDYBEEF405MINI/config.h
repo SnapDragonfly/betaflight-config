@@ -81,10 +81,10 @@
     TIMER_PIN_MAP( 0, PB6 , 1,  0) \
     TIMER_PIN_MAP( 1, PB7 , 1,  0) \
     TIMER_PIN_MAP( 2, PB1 , 2,  0) \
-    TIMER_PIN_MAP( 2, PB0 , 2,  0) \
-    TIMER_PIN_MAP( 3, PB14, 3, -1) \
-    TIMER_PIN_MAP( 4, PA8 , 1,  0) \
-    TIMER_PIN_MAP( 9, PA3 , 3, -1)
+    TIMER_PIN_MAP( 3, PB0 , 2,  0) \
+    TIMER_PIN_MAP( 4, PB14, 3, -1) \
+    TIMER_PIN_MAP( 5, PA8 , 1,  0) \
+    TIMER_PIN_MAP( 6, PA3 , 3, -1)
 
 #define ADC1_DMA_OPT 0
 
@@ -107,7 +107,6 @@
 #define PINIO1_CONFIG 129
 #define PINIO1_BOX 0
 #define FLASH_SPI_INSTANCE SPI3
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW270_DEG
 #define GYRO_1_ALIGN_YAW 2700

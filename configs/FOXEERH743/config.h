@@ -28,8 +28,12 @@
 
 #define USE_GYRO
 #define USE_GYRO_SPI_MPU6000
+#define USE_GYRO_SPI_MPU6500
+#define USE_GYRO_SPI_ICM42688P
 #define USE_ACC
 #define USE_ACC_SPI_MPU6000
+#define USE_ACC_SPI_MPU6500
+#define USE_ACC_SPI_ICM42688P
 #define USE_BARO_DPS310
 #define USE_FLASH
 #define USE_FLASH_W25Q128FV
@@ -122,7 +126,6 @@
 #define MAX7456_SPI_INSTANCE            SPI1
 #define FLASH_SPI_INSTANCE              SPI3
 //TODO #define SDCARD_MODE OFF
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE             SPI2
 #define GYRO_1_ALIGN                    CW0_DEG
 #define GYRO_1_ALIGN_YAW                1800

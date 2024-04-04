@@ -91,7 +91,6 @@
                                             TIMER_PIN_MAP( 6, PB6, 1,  0 )
 
 
-#define USE_ADC
 #define ADC_INSTANCE ADC2
 
 
@@ -101,7 +100,6 @@
 #define DEFAULT_VOLTAGE_METER_SOURCE VOLTAGE_METER_ADC
 #define BEEPER_INVERTED
 #define SYSTEM_HSE_MHZ 8
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW180_DEG_FLIP
 #define GYRO_1_ALIGN_PITCH 1800

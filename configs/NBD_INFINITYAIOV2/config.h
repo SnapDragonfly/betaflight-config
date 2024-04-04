@@ -79,7 +79,7 @@
 #define ADC1_DMA_OPT                    1
 #define MAG_I2C_INSTANCE                (I2CDEV_1)
 #define DEFAULT_DSHOT_BURST DSHOT_DMAR_ON
-//TODO #define DSHOT_BIDIR ON
+#define DEFAULT_DSHOT_TELEMETRY DSHOT_TELEMETRY_ON
 #define DEFAULT_BLACKBOX_DEVICE         BLACKBOX_DEVICE_FLASH
 #define DEFAULT_CURRENT_METER_SOURCE    CURRENT_METER_ADC
 #define DEFAULT_VOLTAGE_METER_SOURCE    VOLTAGE_METER_ADC
@@ -88,7 +88,6 @@
 #define BEEPER_PWM_HZ                   5400
 #define MAX7456_SPI_INSTANCE            SPI3
 #define FLASH_SPI_INSTANCE              SPI1
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE             SPI4
 #define GYRO_1_ALIGN                    CW180_DEG
 #define GYRO_1_ALIGN_YAW                1800

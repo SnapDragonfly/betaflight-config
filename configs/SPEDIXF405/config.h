@@ -35,6 +35,7 @@
 #define USE_GYRO_SPI_ICM42688P
 #define USE_BARO
 #define USE_BARO_BMP280
+#define USE_BARO_DPS310
 #define USE_FLASH
 #define USE_FLASH_M25P16
 #define USE_MAX7456
@@ -89,7 +90,7 @@
     TIMER_PIN_MAP( 1, PB1 , 2,  0) \
     TIMER_PIN_MAP( 2, PB5 , 1,  0) \
     TIMER_PIN_MAP( 3, PB4 , 1,  0) \
-    TIMER_PIN_MAP( 4. PB6 , 1,  0) \
+    TIMER_PIN_MAP( 4, PB6 , 1,  0) \
     TIMER_PIN_MAP( 5, PB7 , 1,  0) \
     TIMER_PIN_MAP( 6, PC8 , 2,  1) \
     TIMER_PIN_MAP( 7, PC9 , 2,  0) \
@@ -112,5 +113,4 @@
 #define MAX7456_SPI_INSTANCE SPI2
 #define PINIO1_BOX 40
 #define FLASH_SPI_INSTANCE SPI3
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1

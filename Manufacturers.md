@@ -19,20 +19,29 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |BKRC|BAYCK RC||
 |BEFH|BETAFPV Hobby|https://betafpv.com/|
 |BKMN|Jason Blackman|https://github.com/blckmn|
+|BSTF|BEASTFPV|http://www.beastfpv.com/|
+|CADX|CADDX TECHNOLOGY (SHENZHEN) CO., LTD|https://caddxfpv.com/|
+|CCRC|Sunhey Now|https://sunheyccrc.aliexpress.com/|
 |CLRA|CLRACING LLC|https://cl-racing.myshopify.com/|
 |CYCL|CycloneRC|http://www.cyclone-rc.com|
 |DAFP|DarwinFPV|https://darwinfpv.com/|
 |DALR|DALRC TECHNOLOGY CO,.LIMITED|http://www.dalrc.cn/DALRC/|
+|DARK|Darkmatter|https://thedarkmatter.in/|
 |DERC|DemonRC|https://demonrc.eu/|
 |DFRA|Drone FPV Racer|https://www.drone-fpv-racer.com/|
+|DFRC|Shenzhen Jingfei Technology Co., LTD|https://dreamflyrc.com/|
 |DIAT|Diatone Innovations|https://www.diatoneusa.com/|
 |DRCL|dronercland|https://www.instagram.com/dronercland/|
+|DREA|DREAMRC|https://github.com/dreamworks-fpv|
 |DRRC|DroidRC|https://github.com/xiaoxiabub|
 |DYST|DongYang Smart Technology Co.,Ltd (dys)|http://www.dys.hk/|
 |EACH|eachine|https://www.eachine.com/|
 |EXUA|EXUAV FPV|https://github.com/Linjieqiang|
 |FFPV|Furious FPV|https://furiousfpv.com/|
+|FFRC|FlyFishRC|https://www.flyfish-rc.com/|
+|FLAO|FLAO Limited|https://www.sunrisemodel.com|
 |FLCO|Shenzhen Flycolor Electronic Co., LTD|http://www.flycolor.net/|
+[FLHI|Fly High|https://elektronchika.github.io/flyhigh/|
 |FLLF|Flying Lemon FPV|https://github.com/flyinglemonfpv|
 |FLMO|FlyMod|https://flymod.net/|
 |FLON|FlightOne|https://flightone.com/|
@@ -53,11 +62,12 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |HNEC|Huizhou NIDICI Electronic Co., LTD|https://shop.nidici.com/|
 |HOWI|Hobbywing Technology CO., LTD.|http://hobbywing.com/|
 |IFRC|iFlight Innovation Technology Ltd.|https://www.iflight-rc.com/|
-|JHEF|JHE\_FPV|https://github.com/atgfpeyv|
+|JHEF|JHE\_FPV|https://www.jhemcu.com/|
 |KLEE|Kevin Lee (WhitenoiseFPV)|https://whitenoisefpv.com/|
 |LDAR|LDARC|http://ldarc.com/|
 |LMNR|Lumenier|https://www.lumenier.com/|
 |MARC|Mayhem RC|https://mayhemrc.com.au/|
+|MEPS|MepsKing|https://www.mepsking.com/|
 |MERA|MerakRC|http://www.merakrc.com/|
 |MOLA|MotoLab|https://github.com/MotoLab|
 |MOQU|Modd Quad|https://www.moddquad.com/|
@@ -67,6 +77,7 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |NEBD|NewBeeDrone|https://newbeedrone.com/|
 |NERC|NeutronRC|https://www.facebook.com/Neutronrc-575638996448880|
 |NGUA|NG.UAVP|https://ng.uavp.ch/Shop|
+|ODTY|OddityRC|http://www.oddityrc.com|
 |OPEN|OpenPilot|https://librepilot.atlassian.net/wiki/spaces/LPDOC/pages/31588369/Supported+Hardware|
 |PYDR|Pyro-Drone|https://pyrodrone.com/|
 |PYID|PYI Technologies|https://pyidrones.com/|

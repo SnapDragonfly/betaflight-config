@@ -19,6 +19,8 @@
  * If not, see <http://www.gnu.org/licenses/>.
  */
 
+#pragma once
+
 #define FC_TARGET_MCU     STM32H750
 
 #define BOARD_NAME        SPRACINGH7EXTREME
@@ -60,6 +62,7 @@
 
 #define FLASH_QUADSPI_INSTANCE    QUADSPI
 
+#define USE_SDCARD_SDIO
 #define SDCARD_DETECT_PIN PD10
 #define SDCARD_DETECT_INVERTED
 #define SDIO_DEVICE             SDIODEV_1
@@ -121,6 +124,13 @@
 #define USE_FLASH_W25N01G
 #define USE_CAMERA_CONTROL
 #define USE_MAX7456
+#define USE_SDCARD
+#define USE_TRANSPONDER
+
+// The target has a specific set of pads for the LED strip.
+#ifndef USE_LED_STRIP
+#define USE_LED_STRIP
+#endif
 
 #define BEEPER_PIN           PD7
 #define MOTOR1_PIN           PA0
@@ -230,7 +240,6 @@
 #define DEFAULT_BLACKBOX_DEVICE     BLACKBOX_DEVICE_FLASH
 #define DEFAULT_GYRO_TO_USE GYRO_CONFIG_USE_GYRO_BOTH
 
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI3
 #define GYRO_1_ALIGN CW180_DEG
 #define GYRO_2_SPI_INSTANCE SPI2

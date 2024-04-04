@@ -36,8 +36,6 @@
 #define USE_FAKE_GYRO
 #define USE_GYRO_SPI_MPU6500
 #define USE_GYRO_SPI_MPU9250
-#define USE_BARO
-#define USE_FAKE_BARO
 #define USE_MAG
 #define USE_FAKE_MAG
 //#define USE_MAX7456
@@ -127,6 +125,4 @@
 
 #define MAX_SUPPORTED_MOTORS            12
 
-//#define USE_GYRO_EXTI
-//#define USE_MPU_DATA_READY_SIGNAL
 //#define ENSURE_MPU_DATA_READY_IS_LOW

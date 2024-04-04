@@ -84,7 +84,6 @@
                                 TIMER_PIN_MAP(3, PA3, 1, 2) \
                                 TIMER_PIN_MAP(4, PB1, 2, 3)
 
-#define USE_ADC
 #define ADC_INSTANCE            ADC1
 #define ADC1_DMA_OPT            11
 
@@ -94,7 +93,6 @@
 #define DEFAULT_VOLTAGE_METER_SOURCE VOLTAGE_METER_ADC
 #define BEEPER_INVERTED
 #define SYSTEM_HSE_MHZ          8
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE     SPI1
 #define DEFAULT_ALIGN_BOARD_YAW -45
 #define MAX7456_SPI_INSTANCE    SPI2

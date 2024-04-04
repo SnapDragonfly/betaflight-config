@@ -28,11 +28,13 @@
 
 #define USE_ACC
 #define USE_ACC_SPI_MPU6000
+#define USE_ACC_SPI_MPU6500
 #define USE_GYRO
 #define USE_GYRO_SPI_MPU6000
 #define USE_GYRO_SPI_MPU6500
-#define USE_ACC_SPI_MPU6500
+#define USE_BARO
 #define USE_BARO_BMP280
+#define USE_BARO_DPS310
 #define USE_FLASH
 #define USE_FLASH_W25Q128FV
 #define USE_MAX7456
@@ -44,7 +46,6 @@
 
 #define GYRO_1_EXTI_PIN      PC4
 #define GYRO_1_CS_PIN        PA4
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW180_DEG
 
@@ -69,7 +70,6 @@
 #define ADC_VBAT_PIN         PC1
 #define ADC_RSSI_PIN         PC2
 #define ADC_CURR_PIN         PC3
-#define USE_ADC
 #define ADC_INSTANCE ADC3
 
 #define UART1_TX_PIN         PB6
@@ -112,7 +112,6 @@
 
 #define PINIO1_PIN           PB0
 
-#define USE_BARO
 #define BARO_I2C_INSTANCE (I2CDEV_1)
 #define MAG_I2C_INSTANCE (I2CDEV_1)
 

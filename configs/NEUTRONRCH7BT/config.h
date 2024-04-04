@@ -31,6 +31,7 @@
 #define USE_FLASH_W25N01G
 #define USE_MAX7456
 #define USE_BARO_DPS310
+#define USE_MAG
 #define USE_MAG_QMC5883
 #define USE_SDCARD
 
@@ -148,9 +149,7 @@
 #define PINIO2_BOX 40
 #define PINIO3_BOX 41
 #define PINIO4_BOX 42
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW270_DEG
 #define GYRO_1_ALIGN_YAW 2700
-#define USE_SPI_GYRO
 #define GYRO_2_SPI_INSTANCE SPI4

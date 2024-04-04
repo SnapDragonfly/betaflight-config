@@ -61,7 +61,6 @@
 #define SPI1_SDO_PIN         PA7
 #define ESCSERIAL_PIN        PA2
 #define ADC_VBAT_PIN         PC1
-#define BARO_CS_PIN          PE1
 #define COMPASS_EXTI_PIN     PE12
 #define GYRO_1_EXTI_PIN      PE0
 #define GYRO_1_CS_PIN        PA4
@@ -78,13 +77,10 @@
 #define ADC1_DMA_OPT        1
 
 #define MAG_I2C_INSTANCE (I2CDEV_2)
-#define USE_BARO
-#define BARO_SPI_INSTANCE SPI1
 #define DEFAULT_VOLTAGE_METER_SOURCE VOLTAGE_METER_ADC
 #define BEEPER_INVERTED
 #define SYSTEM_HSE_MHZ 8
 #define DASHBOARD_I2C_INSTANCE (I2CDEV_2)
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW180_DEG
 #define GYRO_1_ALIGN_YAW 1800

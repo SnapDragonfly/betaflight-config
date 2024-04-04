@@ -82,10 +82,7 @@
 
 #define ADC1_DMA_OPT        1
 
-#define USE_BARO
-#define BARO_I2C_INSTANCE (I2CDEV_3)
 #define SYSTEM_HSE_MHZ 8
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI2
 #define GYRO_1_ALIGN CW270_DEG
 #define GYRO_1_ALIGN_YAW 2700

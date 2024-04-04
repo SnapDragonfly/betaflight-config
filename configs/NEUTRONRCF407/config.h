@@ -36,8 +36,12 @@
 #define USE_FLASH
 #define USE_FLASH_M25P16
 #define USE_MAX7456
+#define USE_BARO
 #define USE_BARO_DPS310
+#ifndef USE_MAG
+#define USE_MAG
 #define USE_MAG_QMC5883
+#endif
 
 #define BEEPER_PIN           PB4
 #define MOTOR1_PIN           PB0
@@ -102,8 +106,6 @@
 
 #define DEFAULT_BLACKBOX_DEVICE     BLACKBOX_DEVICE_FLASH
 #define MAG_I2C_INSTANCE (I2CDEV_1)
-#define USE_MAG
-#define USE_BARO
 #define BARO_I2C_INSTANCE (I2CDEV_1)
 
 #define DEFAULT_DSHOT_BURST DSHOT_DMAR_ON
@@ -119,7 +121,6 @@
 #define PINIO3_BOX 41
 #define PINIO4_BOX 42
 #define FLASH_SPI_INSTANCE SPI3
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW270_DEG
 #define GYRO_2_SPI_INSTANCE SPI1

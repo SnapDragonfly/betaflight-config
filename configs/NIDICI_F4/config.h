@@ -32,6 +32,7 @@
 #define USE_GYRO_SPI_MPU6000
 #define USE_FLASH
 #define USE_FLASH_W25Q128FV
+#define USE_BARO_BMP280
 #define USE_MAX7456
 
 #define BEEPER_PIN           PB4
@@ -101,6 +102,5 @@
 #define PINIO1_BOX 40
 #define PINIO2_BOX 41
 #define FLASH_SPI_INSTANCE SPI3
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW180_DEG_FLIP

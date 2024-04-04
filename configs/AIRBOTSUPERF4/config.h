@@ -23,7 +23,7 @@
 
 #define FC_TARGET_MCU                       AT32F435M
 
-#define BOARD_NAME                          AIRBOTF435
+#define BOARD_NAME                          AIRBOTSUPERF4
 #define MANUFACTURER_ID                     AIRB
 
 #define USE_ACC
@@ -34,7 +34,7 @@
 
 #define USE_GYRO
 #define USE_GYRO_SPI_ICM42688P
-#define USE_SPI_GYRO
+#define USE_ACCGYRO_LSM6DSV16X
 
 #define USE_FLASH
 #define USE_FLASH_M25P16
@@ -105,7 +105,7 @@
 #define GYRO_1_CS_PIN                       PC14
 #define GYRO_1_SPI_INSTANCE                 SPI1
 
-#define TIMER_PIN_MAPPING                   TIMER_PIN_MAP( 0, LED_STRIP_PIN, 1, -1 ) \
+#define TIMER_PIN_MAPPING                   TIMER_PIN_MAP( 0, LED_STRIP_PIN, 1, 1 ) \
                                             TIMER_PIN_MAP( 1, MOTOR4_PIN, 1,  2 ) \
                                             TIMER_PIN_MAP( 2, MOTOR3_PIN, 1,  4 ) \
                                             TIMER_PIN_MAP( 3, MOTOR2_PIN, 2,  1 ) \

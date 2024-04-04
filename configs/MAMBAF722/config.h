@@ -41,7 +41,6 @@
 
 #define GYRO_1_EXTI_PIN      PC4
 #define GYRO_1_CS_PIN        PA4
-#define USE_SPI_GYRO
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW180_DEG
 
@@ -66,7 +65,6 @@
 #define ADC_VBAT_PIN         PC1
 #define ADC_RSSI_PIN         PC2
 #define ADC_CURR_PIN         PC3
-#define USE_ADC
 #define ADC_INSTANCE ADC3
 
 #define UART1_TX_PIN         PB6
@@ -108,8 +106,6 @@
 
 #define PINIO1_PIN           PB0
 
-#define USE_BARO
-#define BARO_I2C_INSTANCE (I2CDEV_1)
 #define MAG_I2C_INSTANCE (I2CDEV_1)
 
 #define DEFAULT_BLACKBOX_DEVICE     BLACKBOX_DEVICE_FLASH
